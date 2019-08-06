@@ -22,9 +22,13 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
+              "src/images",
               "src/manifest.webmanifest",
+              "src/manifest.json",
               "src/ngsw-worker.js",
-              "src/firebase-messaging-sw.js"
+              "src/sw.js",
+              "src/firebase-messaging-sw.js",
+              "src/offline/index.html"
             ],
             "styles": [
               "src/styles.css"

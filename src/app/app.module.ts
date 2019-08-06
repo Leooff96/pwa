@@ -21,9 +21,7 @@ import { MessagingService } from './shared/messaging.service';
     AngularFireDatabaseModule,
     AngularFireAuthModule,
     AngularFireMessagingModule,
-    AngularFireModule.initializeApp(environment.firebase),
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
-    ServiceWorkerModule.register('firebase-messaging-sw.js', { enabled: environment.production }),
+    AngularFireModule.initializeApp(environment.firebase)
   ],
   providers: [MessagingService],
   bootstrap: [AppComponent]
